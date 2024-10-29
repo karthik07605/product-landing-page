@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.head
+{
+    background-color: black;
+    padding: 15px; 
+    text-align: center;
+}
+a
+{
+    font-size: 1.4em;
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+}
+li{
+   display: inline;
+   margin: 0 40px; 
+}
+.home
+{
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px;
+    background: #f4f4f4;
+    
+}
+.first
+{
+    margin: 0px;
+    text-align: center;
+}
+.first h1
+{
+    font-size: 60px;
+}
+.first p
+{
+    margin-top: 10px;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.w
+{
+    text-align: center;
+}
+.w img
+{
+    max-width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+.button
+{
+    padding: 20px;
+    background-color: rgb(16, 16, 16);
+    color: rgb(239, 228, 228);
+    border-radius: 6px;
+    animation-name: example;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+.button:hover
+{
+    background-color: rgb(142, 202, 202);
+    color: black;
+}
+button
+{
+    margin-top: 20px;
+}
+.models
+{
+    padding: 60px;
+    background-color: rgb(249, 249, 245);
+    
+    overflow: auto;
+}
+.model h1
+{
+    font-size: 50px;
+}
+.area
+{
+    margin-top: 80px;
+}
+.display
+{
+    overflow: auto;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+
+}
+.details
+{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.detail
+{
+    margin-top: 20px;
+    margin-left: 130px;
+}
+.image
+{
+    max-width: 100%;
+    height: 300px;
+    padding: 4px;
+}
+.infobox
+{
+   padding: 10px;
+   background-color: rgb(238, 239, 232);
+   color: black;
+   border-radius: 6px;
+}
+.infobox:hover
+{
+    background-color: blue;
+    color: white;
+}
+.detail2
+{
+    margin-top: 120px;
+    width: 370px;
+    margin-bottom: 20px;
+}
+.about
+{
+    background-color: azure;
+    padding:30px 60px 30px 60px;
+    width:100%;
+    height: auto;
+}
+.z
+{
+    padding: 0px;
+}
+.contact
+{
+    background-color: rgb(234, 239, 239);
+    padding: 20px;
+    height: auto;
+}
+.info
+{
+    background-color: rgb(234, 239, 239);
+    padding: 60px;
+}
+.find
+{
+    text-align: center;
+    margin-top: 30px;
+}
+.search
+{
+    width: 300px;
+    height: 30px;
+    border-radius: 40px;
+    font-size: 15px;
+    border-width: 3px;
+    background-color: rgb(251, 252, 250); 
+}
